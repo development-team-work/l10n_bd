@@ -8,14 +8,14 @@
     'version': '1.0',
     'category': 'Localization',
     'description': """
-This is the latest Bangladesh Odoo localisation necessary to run Odoo accounting for Bangladesh SME's with:
+This is the latest Bangladeshi Odoo localisation necessary to run Odoo accounting for Bangladeshi SME's with:
 =================================================================================================
     - a CT600-ready chart of accounts
     - VAT100-ready tax structure
-    - InfoLogic Bangladesh counties listing
+    - InfoLogic UK counties listing
     - a few other adaptations""",
     'author': 'SM Ashraf',
-    'website': 'www.eagle-it-services.com',
+    'website': 'https://www.odoo.com/page/accounting',
     'depends': [
         'account',
         'base_iban',
@@ -25,10 +25,9 @@ This is the latest Bangladesh Odoo localisation necessary to run Odoo accounting
         'data/l10n_bd_chart_data.xml',
         'data/account.account.template.csv',
         'data/account.chart.template.csv',
-        'data/account.account.tag.csv',
         'data/account.tax.group.csv',
-        'data/account.tax.template.csv',
-        # 'data/res.country.state.csv',
+        'data/account_tax_report_data.xml',
+        'data/account_tax_data.xml',
         'data/account_chart_template_data.xml',
     ],
     'demo' : ['demo/l10n_bd_demo.xml'],
