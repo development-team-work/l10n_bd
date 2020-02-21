@@ -9,7 +9,7 @@
     'category': 'Localization',
     'description': """
 This is the latest Bangladeshi Odoo localisation necessary to run Odoo accounting for Bangladeshi SME's with:
-=================================================================================================
+=============================================================================================================
     - a CT600-ready chart of accounts
     - VAT100-ready tax structure
     - InfoLogic UK counties listing
